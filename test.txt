@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 add tets
+=======
+add tets
+12345
+jhhg
+>>>>>>> 2b4898fe92811b58fe91d6ec00ebab0512a84e98
