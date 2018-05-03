@@ -1,0 +1,310 @@
+
+.list-text{
+    width: 1200px;
+    height: 150px;
+    background: white;
+    margin: auto;
+}
+.list-text-reponsiver{
+    width: 100%;
+    height: 150px;
+    background: white;
+    margin: auto;
+    display: none;
+}
+.list-text-short-link-text{
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    color:lightslategray;
+}
+.list-text-nailcare{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-text-information{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-text-short{
+    width: 100%;
+    height: 50px;
+    background:white;
+    margin: auto;
+}
+.list-text-short-link{
+    width: 50%;
+    height: 100%;
+    background:white;
+    float: left;
+    line-height: 50px;
+    border-bottom: 2px solid #F2f2f2;
+}
+.list-text-short-pick{
+    width: 50%;
+    height: 100%;
+    background: white;
+    float: right;
+}
+.list-text p {
+    text-align: center;
+}
+.list-product{
+    width: 1200px;
+    height: 2800px;
+    background: white;
+    margin: auto;
+}
+.list-like{
+    width: 1200px;
+    height: 250px;
+    background: white;
+    margin: auto;
+}
+.list-like-text{
+    width: 30%;
+    height: 20%;
+     background: white;
+     line-height: 50px;
+     margin: auto;
+     border-bottom: 2px solid lightslategray;
+}
+.list-like-product{
+     width: 100%;
+    height: 100%;
+    background: white;
+    margin-top: 20px;
+  
+}
+.list-nextPage{
+    width: 1200px;
+    height: 50px;
+    background:white;
+    margin: auto;
+}
+.list-product-box{
+    width: 25%;
+    height: 400px;
+    background: white;
+    float: left;
+}
+.list-product-box-img{
+    width: 100%;
+    height: 70%;
+    background: white;
+}
+.list-product-box-text{
+    width: 100%;
+    height: 15%;
+    background: white;
+}
+.list-product-box-buy{
+    width: 100%;
+    height: 15%;
+    background:white;
+}
+.list-product-box-buy-button{
+    text-align: center;
+}
+.list-product-box:hover{
+    
+    border: 2px solid #F2f2f2;
+}
+.list-product-box-img:hover{
+background: black;
+}
+.list-product-col{
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    background: beige;
+}
+
+.dropbtn {
+    background-color: white;
+    color: lightslategray;
+    padding: 11px;
+    font-size: 14px;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+.list-nextPage-next {
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+.mobie-list-text{
+    width: 375px;
+    height: 110px;
+    background: white;
+}
+.mobie-list-text-nailcare{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mobie-list-text-information{
+    font-size:9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mobie-list-text-short{
+    width: 375px;
+    height: 50px;
+    background:white;
+    margin: auto;
+}
+.mobie-list-product-box{
+    width: 30%;
+    height: 100%;
+    background: yellowgreen;
+    float: left;
+    margin-left: 2.5%;
+}
+.mobie-list-product{
+    width: 360px;
+    height: 1270px;
+    background: #666;
+    margin: auto;
+}
+.mobie-list-product-col{
+    width: 100%;
+    height: 150px;
+    background: white;
+    margin-top: 10px;
+}
+.mobie-list-nextPage{
+    width: 360px;
+    height: 30px;
+    background: white;
+    margin: auto;
+}
+.mobie-list-nextPage-next {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 10px;
+}
+.mobie-list-like{
+    width: 360px;
+    height: 150px;
+    background: white;
+    margin: auto;
+}
+.mobie-list-like-text{
+    width: 30%;
+    height: 20%;
+     background: white;
+     line-height: 30px;
+     margin: auto;
+     border-bottom: 1px solid lightslategray;
+}
+.list-like-product{
+     width: 100%;
+    height: 150px;
+    background: violet;
+    margin-top: 20px; 
+}
+.menu-mobie{
+    display: none;
+}
+/* Dành cho điện thoại */
+@media all and  (max-width:375px) {
+.list-product, .list-nextPage, .list-text , .list-like,.list-text-short{
+       display: none;
+    }
+    .menu-mobie{
+        display: block;
+    }
+    .background-header .fixed-top{
+        width: 360px !important;
+    }
+    .navigation, .toggler-menu{
+        
+    }
+}
+
+
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (max-width: 1024px){
+ .list-like{ 
+     width: 768px !important ; 
+    }
+    .list-product{
+        width:768px !important;
+    }
+    .list-nextPage{
+         width:768px !important;
+    } 
+    .list-text{
+         width:768px !important;
+    }     
+    .dropbtn {
+    padding: 5px;
+}
+}
+ 
+/* Style the active class, and buttons on mouse-over */
+.actives, .list-nextPage-next:hover {
+    background-color: #666;
+    color: white;
+}
+
+ .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 057 css*/
+        .jssorb057 .i {position:absolute;cursor:pointer;}
+        .jssorb057 .i .b {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.4;}
+        .jssorb057 .i:hover .b {stroke-opacity:.7;}
+        .jssorb057 .iav .b {stroke-opacity: 1;}
+        .jssorb057 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 073 css*/
+        .jssora073 {display:block;position:absolute;cursor:pointer;}
+        .jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
+        .jssora073:hover {opacity:.8;}
+        .jssora073.jssora073dn {opacity:.4;}
+        .jssora073.jssora073ds {opacity:.3;pointer-events:none;}
